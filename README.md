@@ -12,7 +12,7 @@ This project is a React component named "Meow Profile Card" that I created for p
 
 ## Preview
 
-![Meow Profile Card](profile-component/design/card_component.png)
+![Meow Profile Card](design/card_component.png)
 
 ## Getting Started
 
