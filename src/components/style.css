@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kumbh+Sans:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.74);
+  color: var(--dark-gray);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(144, 162, 194, 0.747);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  font-size: 15px;
+  z-index: 99;
+}
+
+.card .top-img {
+  height: 75px;
+  width: 200px;
+  background-image: url("./bg_image.jpg");
+  border-radius: 10px 10px 0 0;
+  z-index: 99;
+}
+
+.profile .profile-img {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  padding: 5px;
+  top: 30px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile .profile-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  margin-top: 50px; /* Add some margin to the top */
+  display: flex;
+  flex-direction: column; /* Make the text align vertically */
+  align-items: center; /* Center the text */
+  justify-content: center; /* Center the text */
+}
+
+.profile {
+  width: 100%; /* Make the card take the full width */
+  text-align: center; /* Center the text */
+  border-bottom: 1px solid var(--dark-gray); /* Add a border to the bottom of the card */
+  padding-bottom: 30px;
+}
+
+.profile .name {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--dark-gray);
+}
+
+.profile .name span {
+  font-weight: 700;
+  color: var(--dark-grayish);
+}
+
+.profile .location {
+  font-size: 12px;
+  color: var(--dark-gray);
+}
+
+.status-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.status-info .number {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 1px;
+  color: var(--dark-grayish);
+}
+
+.status-info p {
+  font-size: 10px;
+  color: var(--dark-gray);
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 100%;
+  }
+}
