@@ -1,8 +1,35 @@
-# React + Vite
+# Meow Profile Card Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a React component named "Meow Profile Card" that I created for practicing my CSS and React skills. The component showcases a profile card with a playful design featuring a "meow" theme.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- 🎨 Playful and creative design.
+- 🚀 Built using React for dynamic and reusable components.
+- 💅 Styled with CSS to enhance visual appeal and responsiveness.
+
+## Preview
+
+![Meow Profile Card](profile-component/design/card_component.png)
+
+## Getting Started
+
+These instructions will help you set up and run the project on your local machine.
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/meow-profile-card-component.git
+   ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
